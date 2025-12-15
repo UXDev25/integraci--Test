@@ -3,11 +3,12 @@ using System;
 
 namespace CodeWithIssues
 {
-    class Program
+    // afegim el 'public' a la classe
+    public class Program
     {
         static void Main(string[] args)
         {
-            int unusedVar = 10;
+            // borrem la declaració de la variable 'unusedVar'
 
             Console.WriteLine("Benvingut al programa de càlculs!");
             Console.WriteLine("Benvingut al programa de càlculs!");
@@ -17,40 +18,42 @@ namespace CodeWithIssues
             int c = 15;
             int result = 0;
 
-            if (a > 0)
-            {
-                if (b > 0)
-                {
-                    if (c > 0)
-                    {
-                        result = a + b + c;
-                    }
-                    else
-                    {
-                        result = a + b;
-                    }
-                }
-                else
-                {
-                    result = a;
-                }
-            }
-            else
+            if (a <= 0)
             {
                 result = 0;
             }
-
+            else
+            {
+                if (b <= 0)
+                {
+                    result = a;
+                }
+                else
+                {
+                    
+                    if (c <= 0)
+                    {
+                        result = a + b;
+                    }
+                    else
+                    {
+                        
+                        result = a + b + c;
+                    }
+                }
+            }
+            
             if (result == 0)
             {
                 Console.WriteLine("El resultat és zero.");
             }
-            else if (result > 0)
+            else if (result < 0)
             {
-                Console.WriteLine("El resultat és positiu.");
+                Console.WriteLine("El resultat és negatiu.");
             }
             else
             {
-                Console.WriteLine("El resultat és negatiu.");
+                Console.WriteLine("El resultat és positiu.");
             }
 
             int counter = 0;
@@ -63,10 +66,9 @@ namespace CodeWithIssues
                 }
             }
 
-            // int oldVar = 20;
+            //treiem linees de codi comentades
 
-            int x = 5;
-            x = x + 0;
+            // treiem declaracións de variables inecessaries
 
             Console.WriteLine("Finalitzant el programa...");
             Console.WriteLine("Finalitzant el programa...");
