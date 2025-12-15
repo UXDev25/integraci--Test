@@ -17,65 +17,23 @@ Pregunta 5: Quin error ha estat més difícil/complex de solucionar? Raoneu la v
 
 Pregunta 5: Quin error ha estat més difícil/complex de solucionar? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
 
-="TC#"	="Classe"	="Nom del cas de Prova"	="Descripció"	="Entrada"	="Accions"	="Resultat Esperat"	="Resultat Obtingut"	="Tipus de cas"
-="TC1"	="Classe 1"	="Verificar resultat amb totes les variable majors a 0."	="Tots els números són majors a 0"	="a = 2
-b = 5
-c = 4"	="a > 0, b > 0 i c > 0 el resultat és a + b + c.
-2 + 5 + 4 = 11"	="Resultat > 0 -> True
-Mostra: ""El resultat és positiu"""	=""	="Cas normal"
-="TC2"	="Classe 2"	="Verificar resultat amb la variable a i b majors a 0."	="La variable a i la variable b són números enters, però la variable c és menor què 0."	="a = 6
-b = 7
-c = -67"	="a > 0, b > 0 i c <= 0 el resultat és a + b.
-6 + 7 = 13"	="Resultat > 0 -> True
-Mostra: ""El resultat és positiu"""	=""	="Cas normal"
-="TC3"	="Classe 2"	="Verificar resultat amb la variable a i b majors a 0 i la c és igual a 0"	="La variable a i la variable b són números enters, però la variable c és igual què 0."	="a = 4
-b = 5
-c = 0"	="a > 0, b > 0 i c <= 0 el resultat és a + b.
-4 + 5 = 9"	="Resultat > 0 -> True
-Mostra: ""El resultat és positiu"""	=""	="Cas límit"
-="TC4"	="Classe 3"	="Verificar variable és número enter"	="Només la variable a és número enter."	="a = 5
-b = 0
-c = 0"	="a > 0 i b ≤ 0, el resultat és a.
-Resultat = 5"	="Resultat > 0 -> True
-Mostra: ""El resultat és positiu"""	=""	="Cas límit"
-="TC6"	="Classe 3"	="Verificar las variables són números enters."	="La variable a i la variable c són números enters."	="a = 3
-b = -1
-c = 4"	="a > 0 i b ≤ 0, però c > 0, el resultat és a.
-Resultat = 3"	="Resultat > 0 -> True
-Mostra: ""El resultat és positiu"""	=""	="Cas normal"
-="TC7"	="Classe 4"	="Verificar la variable és número 0"	="La variable a és igual a 0."	="a = 0
-b = 0
-c = 0"	="a <= 0 el resultat és 0.
-Resultat = 0"	="Resultat = 0 -> True
-Mostra: ""El resultat és zero"""	=""	="Cas límit"
-="TC8"	="Classe 4"	="Verificar la variable és número 0 con el resto de variables mayor a 0"	="La variable a és igual a 0, però la resta de variables són majors a 0."	="a = 0
-b = 1
-c = 2"	="a <= 0 el resultat és 0.
-Resultat = 0"	="Resultat = 0 -> True
-Mostra: ""El resultat és zero"""	=""	="Cas límit"
-="TC9"	="Classe 4"	="Verificar la variable és número 0 con el resto de variables a 0"	="Totes les variables són menors a 0."	="a = -2
-b = -1
-c = -3"	="a <= 0 el resultat és 0.
-Resultat = 0"	="Resultat = 0 -> True
-Mostra: ""El resultat és zero"""	=""	="Cas normal"
-="TC10"	="Classe 4"	="Verificar variable amb la variable a és igual a 0, la c menor a 0 i la b major a 0"	="La variable a és igual a 0,  b és major a 0 i c és menor a 0."	="a = 0
-b = 2
-c = -1"	="a <= 0 el resultat és 0.
-Resultat = 0"	="Resultat = 0 -> True
-Mostra: ""El resultat és zero"""	=""	="Cas límit"
-="TC11"	="Classe 4"	="Verificar variable amb la variable a és igual a 0, la b menor a 0 i la c major a 0"	="La variable a és igual a 0,  c és major a 0 i b és menor a 0."	="a = 0
-b = -1
-c = 2"	="a <= 0 el resultat és 0.
-Resultat = 0"	="Resultat = 0 -> True
-Mostra: ""El resultat és zero"""	=""	="Cas límit"
-="TC12"	="Classe 4"	="Verificar variable amb la variable a és igual a 0 i la resta menor a 0."	="La variable a és igual a 0, la resta de variables són menors a 0."	="a =0
-b =-1
-c =-2"	="a <= 0 el resultat és 0.
-Resultat = 0"	="Resultat = 0 -> True
-Mostra: ""El resultat és zero"""	=""	=""
-=""	=""	=""	=""	=""	=""	=""	=""	=""
-=""	=""	=""	=""	=""	=""	=""	=""	=""
-=""	=""	=""	=""	=""	=""	=""	=""	=""
-=""	=""	=""	=""	=""	=""	=""	=""	=""
-=""	=""	=""	=""	=""	=""	=""	=""	=""
-=""	=""	=""	=""	=""	=""	=""	=""	=""
+| TC#  | Classe   | Nom del cas de Prova                                                               | Descripció                                                                           | Entrada                    | Accions                                                          | Resultat Esperat                                           | Resultat Obtingut | Tipus de cas |
+|------|----------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------|------------------------------------------------------------------|------------------------------------------------------------|-------------------|--------------|
+| TC1  | Classe 1 | Verificar resultat amb totes les variable majors a 0.                              | Tots els números són majors a 0                                                      | a = 2<br>b = 5<br>c = 4    | a > 0, b > 0 i c > 0 el resultat és a + b + c.<br>2 + 5 + 4 = 11 | Resultat > 0 -> True<br>Mostra: ""El resultat és positiu"" |                   | Cas normal   |
+| TC2  | Classe 2 | Verificar resultat amb la variable a i b majors a 0.                               | La variable a i la variable b són números enters, però la variable c és menor què 0. | a = 6<br>b = 7<br>c = -67  | a > 0, b > 0 i c <= 0 el resultat és a + b.<br>6 + 7 = 13        | Resultat > 0 -> True<br>Mostra: ""El resultat és positiu"" |                   | Cas normal   |
+| TC3  | Classe 2 | Verificar resultat amb la variable a i b majors a 0 i la c és igual a 0            | La variable a i la variable b són números enters, però la variable c és igual què 0. | a = 4<br>b = 5<br>c = 0    | a > 0, b > 0 i c <= 0 el resultat és a + b.<br>4 + 5 = 9         | Resultat > 0 -> True<br>Mostra: ""El resultat és positiu"" |                   | Cas límit    |
+| TC4  | Classe 3 | Verificar variable és número enter                                                 | Només la variable a és número enter.                                                 | a = 5<br>b = 0<br>c = 0    | a > 0 i b ≤ 0, el resultat és a.<br>Resultat = 5                 | Resultat > 0 -> True<br>Mostra: ""El resultat és positiu"" |                   | Cas límit    |
+| TC6  | Classe 3 | Verificar las variables són números enters.                                        | La variable a i la variable c són números enters.                                    | a = 3<br>b = -1<br>c = 4   | a > 0 i b ≤ 0, però c > 0, el resultat és a.<br>Resultat = 3     | Resultat > 0 -> True<br>Mostra: ""El resultat és positiu"" |                   | Cas normal   |
+| TC7  | Classe 4 | Verificar la variable és número 0                                                  | La variable a és igual a 0.                                                          | a = 0<br>b = 0<br>c = 0    | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    |                   | Cas límit    |
+| TC8  | Classe 4 | Verificar la variable és número 0 con el resto de variables mayor a 0              | La variable a és igual a 0, però la resta de variables són majors a 0.               | a = 0<br>b = 1<br>c = 2    | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    |                   | Cas límit    |
+| TC9  | Classe 4 | Verificar la variable és número 0 con el resto de variables a 0                    | Totes les variables són menors a 0.                                                  | a = -2<br>b = -1<br>c = -3 | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    |                   | Cas normal   |
+| TC10 | Classe 4 | Verificar variable amb la variable a és igual a 0, la c menor a 0 i la b major a 0 | La variable a és igual a 0,  b és major a 0 i c és menor a 0.                        | a = 0<br>b = 2<br>c = -1   | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    |                   | Cas límit    |
+| TC11 | Classe 4 | Verificar variable amb la variable a és igual a 0, la b menor a 0 i la c major a 0 | La variable a és igual a 0,  c és major a 0 i b és menor a 0.                        | a = 0<br>b = -1<br>c = 2   | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    |                   | Cas límit    |
+| TC12 | Classe 4 | Verificar variable amb la variable a és igual a 0 i la resta menor a 0.            | La variable a és igual a 0, la resta de variables són menors a 0.                    | a =0<br>b =-1<br>c =-2     | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    |                   |              |
+|      |          |                                                                                    |                                                                                      |                            |                                                                  |                                                            |                   |              |
+|      |          |                                                                                    |                                                                                      |                            |                                                                  |                                                            |                   |              |
+|      |          |                                                                                    |                                                                                      |                            |                                                                  |                                                            |                   |              |
+|      |          |                                                                                    |                                                                                      |                            |                                                                  |                                                            |                   |              |
+|      |          |                                                                                    |                                                                                      |                            |                                                                  |                                                            |                   |              |
+|      |          |                                                                                    |                                                                                      |                            |                                                                  |                                                            |                   |              |
+
