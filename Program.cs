@@ -10,7 +10,7 @@ namespace CodeWithIssues
         {
             // borrem la declaració de la variable 'unusedVar'
 
-            Console.WriteLine("Benvingut al programa de càlculs!");
+            //borrem els writelines redundants
             Console.WriteLine("Benvingut al programa de càlculs!");
 
             int a = 5;
@@ -70,7 +70,7 @@ namespace CodeWithIssues
 
             // treiem declaracións de variables inecessaries
 
-            Console.WriteLine("Finalitzant el programa...");
+            //borrem els writelines redundants
             Console.WriteLine("Finalitzant el programa...");
         }
     }
