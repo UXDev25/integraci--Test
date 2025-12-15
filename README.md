@@ -7,6 +7,7 @@ Carlos Morlás, Unai Almiñana, John De Vera, Camila Montes
 
 ## Pregunta 1: En aquest anàlisi inicial del programa, es mostren resultats en l’apartat de cobertura de codi (coverage)? Raoneu la vostra resposta, incloent una captura de la pantalla de resum de SonarCloud.
 
+![Captura del SonarQube](Pregunta1.png)
 És perquè encara que hagi pogut analitzar el codi, comptabilitzat que té 21 línies, no ha trobat cap prova per aquestes 21 línies, per això, no hi ha cobertura.
 
 ## Pregunta 2: Quines accions heu realitzat per reduir la complexitat ciclomàtica?  Raoneu la vostra resposta.
