@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="xUnitLibrary/xUnitLibrary.csproj" />
-  <Project Path="XunitTest/XunitTest.csproj" />
-</Solution>
