@@ -12,6 +12,16 @@ Carlos Morlás, Unai Almiñana, John De Vera, Camila Montes
 
 ## Pregunta 2: Quines accions heu realitzat per reduir la complexitat ciclomàtica?  Raoneu la vostra resposta.
 
+Hem tret diverses línies de codi, entre aquestes hi havien repetides o què estaven malament:
+
+Afegit el ‘public’ davant de la classe
+- Borrat de variables innecessàries i les seves declaracions corresponents (unusedVar, x, counter)
+- Borrat de Console.WriteLine redundants a l'inici i al final del codi
+- Borrat de línies de codi antigues comentades
+- Borrat de condicions, bucles i altres línies innecessàries dins les peticions del client.
+
+Dins el codi, les condicions estan construïdes d’una manera que existeixen casos pels quals no podran passar mai, el codi no podrà printar mai l’opció que els valors siguin negatius, ja que les primeres condicions ho impedeixen.
+
 ## Pregunta 3: Com separaríeu la lògica de càlcul en mètodes independents?  Raoneu la vostra resposta.
 
 ## Pregunta 4: Es poden passar tots els tests correctament? Com es captura la sortida per consola? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
