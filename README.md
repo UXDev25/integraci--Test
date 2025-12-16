@@ -30,14 +30,14 @@ Faríem un mètode per calcular el resultat fent ús de les condicions del progr
 
 ## Pregunta 4: Es poden passar tots els tests correctament? Com es captura la sortida per consola? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
 
-S’han passat 18 tests correctament i han hagut 0 problemes.
+S’han passat 18 tests correctament i hi han hagut 0 problemes.
 
 ![Captura del resultat dels tests.](Img/Tests.png)
-![Captura del rcodi dels tests.](Img/TestCode.png)
+![Captura del codi dels tests.](Img/TestCode.png)
 
 ## Pregunta 5: Quin error ha estat més difícil/complex de solucionar? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
 
-Havent acabat els anteriors exercicis, hem arribat a la conclusió que el problema més complex a solucionar va ser el coverage en poder corregir el codi, ja que tenim pocs coneixements sobre SonarCloud, per sort vam poder trobar informació sobre perquè ens sortia 0% de coverage, la raó era perquè no hi podia fer un test per verificar el programa.
+Havent acabat els anteriors exercicis, hem arribat a la conclusió que el problema més complex a solucionar va ser el coverage en poder corregir el codi, ja que tenim pocs coneixements sobre SonarCloud, per sort vam poder trobar informació sobre per què ens sortia 0% de coverage, la raó era perquè no hi podia fer un test per verificar el programa.
 
 | TC#  | Classe   | Nom del cas de Prova                                                               | Descripció                                                                           | Entrada                    | Accions                                                          | Resultat Esperat                                           | Resultat Obtingut                 | Tipus de cas |
 |------|----------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------|------------------------------------------------------------------|------------------------------------------------------------|-----------------------------------|--------------|
