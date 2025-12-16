@@ -5,7 +5,7 @@ using System.Reflection.Metadata.Ecma335;
 namespace CodeWithIssues
 {
     // afegim el 'public' a la classe
-    public class Program
+    public static class Program
     {
         static void Main(string[] args)
         {
