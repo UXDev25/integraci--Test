@@ -7,10 +7,20 @@ Carlos Morlás, Unai Almiñana, John De Vera, Camila Montes
 
 ## Pregunta 1: En aquest anàlisi inicial del programa, es mostren resultats en l’apartat de cobertura de codi (coverage)? Raoneu la vostra resposta, incloent una captura de la pantalla de resum de SonarCloud.
 
-![Captura del SonarQube](Pregunta1.png)
+![Captura del SonarQube](Img/Pregunta1.png)
 És perquè encara que hagi pogut analitzar el codi, comptabilitzat que té 21 línies, no ha trobat cap prova per aquestes 21 línies, per això, no hi ha cobertura.
 
 ## Pregunta 2: Quines accions heu realitzat per reduir la complexitat ciclomàtica?  Raoneu la vostra resposta.
+
+Hem tret diverses línies de codi, entre aquestes hi havien repetides o què estaven malament:
+
+Afegit el ‘public’ davant de la classe
+- Borrat de variables innecessàries i les seves declaracions corresponents (unusedVar, x, counter)
+- Borrat de Console.WriteLine redundants a l'inici i al final del codi
+- Borrat de línies de codi antigues comentades
+- Borrat de condicions, bucles i altres línies innecessàries dins les peticions del client.
+
+Dins el codi, les condicions estan construïdes d’una manera que existeixen casos pels quals no podran passar mai, el codi no podrà printar mai l’opció que els valors siguin negatius, ja que les primeres condicions ho impedeixen.
 
 ## Pregunta 3: Com separaríeu la lògica de càlcul en mètodes independents?  Raoneu la vostra resposta.
 
