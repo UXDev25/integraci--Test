@@ -52,3 +52,7 @@ Havent acabat els anteriors exercicis, hem arribat a la conclusió que el proble
 | TC10 | Classe 4 | Verificar variable amb la variable a és igual a 0, la c menor a 0 i la b major a 0 | La variable a és igual a 0,  b és major a 0 i c és menor a 0.                        | a = 0<br>b = 2<br>c = -1   | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    | El resultat obtingut és correcte. | Cas límit    |
 | TC11 | Classe 4 | Verificar variable amb la variable a és igual a 0, la b menor a 0 i la c major a 0 | La variable a és igual a 0,  c és major a 0 i b és menor a 0.                        | a = 0<br>b = -1<br>c = 2   | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    | El resultat obtingut és correcte. | Cas límit    |
 | TC12 | Classe 4 | Verificar variable amb la variable a és igual a 0 i la resta menor a 0.            | La variable a és igual a 0, la resta de variables són menors a 0.                    | a =0<br>b =-1<br>c =-2     | a <= 0 el resultat és 0.<br>Resultat = 0                         | Resultat = 0 -> True<br>Mostra: ""El resultat és zero""    | El resultat obtingut és correcte. | Cas límit    |
+
+## EXTRES
+
+- ### Link al projecte del xUnitTest: https://github.com/UXDev25/xUnitRepo.git
