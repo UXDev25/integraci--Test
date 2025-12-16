@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isard\\Desktop\\Programació\\Ultimate Tare Unit test\\Integracio.csproj": {}
+    "C:\\Users\\isard\\Desktop\\Programació\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\Integracio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isard\\Desktop\\Programació\\Ultimate Tare Unit test\\Integracio.csproj": {
+    "C:\\Users\\isard\\Desktop\\Programació\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\Integracio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isard\\Desktop\\Programació\\Ultimate Tare Unit test\\Integracio.csproj",
+        "projectUniqueName": "C:\\Users\\isard\\Desktop\\Programació\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\Integracio.csproj",
         "projectName": "Integracio",
-        "projectPath": "C:\\Users\\isard\\Desktop\\Programació\\Ultimate Tare Unit test\\Integracio.csproj",
+        "projectPath": "C:\\Users\\isard\\Desktop\\Programació\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\Integracio.csproj",
         "packagesPath": "C:\\Users\\isard\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isard\\Desktop\\Programació\\Ultimate Tare Unit test\\obj\\",
+        "outputPath": "C:\\Users\\isard\\Desktop\\Programació\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

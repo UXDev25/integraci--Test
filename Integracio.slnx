@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="../XunitTest/xUnitLibrary/xUnitLibrary.csproj" />
+  <Project Path="../XunitTest/XunitTest/XunitTest.csproj" />
   <Project Path="Integracio.csproj" />
 </Solution>
