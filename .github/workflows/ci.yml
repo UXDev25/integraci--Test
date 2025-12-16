@@ -18,16 +18,16 @@ jobs:
         dotnet-version: 8.0.x  # Canvia per la versió que utilitzis (6.0.x, 7.0.x, etc.)
 
     - name: Restaurar dependències
-      run: dotnet restore
+      run: dotnet restore Integracio.csproj
 
     - name: Compilar el projecte
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build Integracio.csproj --configuration Release --no-restore
 
     - name: Executar tests
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test Integracio.csproj --no-build --verbosity normal
 
     - name: Publicar el projecte
-      run: dotnet publish --configuration Release --output ./publish
+      run: dotnet publish Integracio.csproj --configuration Release --output ./publish
   build:
     name: Build and analyze
     runs-on: windows-latest
