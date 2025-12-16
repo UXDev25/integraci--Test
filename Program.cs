@@ -13,34 +13,14 @@ namespace CodeWithIssues
             //borrem els writelines redundants
             Console.WriteLine("Benvingut al programa de càlculs!");
 
-            int a = 5;
-            int b = 10;
-            int c = 15;
+            int a = 0;
+            int b = 0;
+            int c = 0;
             int result = 0;
 
-            if (a <= 0)
+            switch (a, b, c)    
             {
-                result = 0;
-            }
-            else
-            {
-                if (b <= 0)
-                {
-                    result = a;
-                }
-                else
-                {
-                    
-                    if (c <= 0)
-                    {
-                        result = a + b;
-                    }
-                    else
-                    {
-                        
-                        result = a + b + c;
-                    }
-                }
+                case a < 0:
             }
             
             if (result == 0)
