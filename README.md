@@ -30,6 +30,11 @@ Faríem un mètode per calcular el resultat fent ús de les condicions del progr
 
 ## Pregunta 4: Es poden passar tots els tests correctament? Com es captura la sortida per consola? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
 
+S’han passat 18 tests correctament i han hagut 0 problemes.
+
+![Captura del resultat dels tests.](Img/Tests.png)
+![Captura del rcodi dels tests.](Img/TestCode.png)
+
 ## Pregunta 5: Quin error ha estat més difícil/complex de solucionar? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
 
 ## Pregunta 5: Quin error ha estat més difícil/complex de solucionar? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
