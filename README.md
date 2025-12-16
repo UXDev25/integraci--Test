@@ -24,6 +24,10 @@ Dins el codi, les condicions estan construïdes d’una manera que existeixen ca
 
 ## Pregunta 3: Com separaríeu la lògica de càlcul en mètodes independents?  Raoneu la vostra resposta.
 
+Faríem un mètode per calcular el resultat fent ús de les condicions del programa i què el retorni, en el codi principal posem un switch case, en el qual depenent del resultat mostrarà el missatge corresponent.
+
+![Captura del Metode explicat](Img/Metode.png)
+
 ## Pregunta 4: Es poden passar tots els tests correctament? Com es captura la sortida per consola? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
 
 ## Pregunta 5: Quin error ha estat més difícil/complex de solucionar? Raoneu la vostra resposta i poseu algun exemple on ho heu implementat.
