@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Integracio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6defd3b166938d5ef4577d2232b788b0b046c48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+763dd116af6a061afb428818646f8c8d2891a986")]
 [assembly: System.Reflection.AssemblyProductAttribute("Integracio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Integracio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
