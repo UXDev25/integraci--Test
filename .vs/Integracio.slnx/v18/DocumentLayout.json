@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{213B6FD5-47FE-A5F3-A71F-C3B48ECAF15A}|Integracio.csproj|c:\\users\\isard\\desktop\\programaci\u00F3\\real ultimate jesuscrist unit test\\ultimate tare unit test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{213B6FD5-47FE-A5F3-A71F-C3B48ECAF15A}|Integracio.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{213B6FD5-47FE-A5F3-A71F-C3B48ECAF15A}|Integracio.csproj|c:\\users\\isard\\desktop\\programaci\u00F3\\real ultimate jesuscrist unit test\\ultimate tare unit test\\mainprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{213B6FD5-47FE-A5F3-A71F-C3B48ECAF15A}|Integracio.csproj|solutionrelative:mainprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +23,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Title": "MainProgram.cs",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\MainProgram.cs",
+              "RelativeDocumentMoniker": "MainProgram.cs",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\MainProgram.cs",
+              "RelativeToolTip": "MainProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T10:19:14.025Z",
               "EditorCaption": ""
