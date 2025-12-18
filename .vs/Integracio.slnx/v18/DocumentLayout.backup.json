@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5949EAE5-2BF2-F16B-F237-6550F6F74BCC}|XunitTest\\XunitTest.csproj|c:\\users\\isard\\desktop\\programaci\u00F3\\real ultimate jesuscrist unit test\\ultimate tare unit test\\xunittest\\xunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5949EAE5-2BF2-F16B-F237-6550F6F74BCC}|XunitTest\\XunitTest.csproj|solutionrelative:xunittest\\xunittest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{213B6FD5-47FE-A5F3-A71F-C3B48ECAF15A}|Integracio.csproj|c:\\users\\isard\\desktop\\programaci\u00F3\\real ultimate jesuscrist unit test\\ultimate tare unit test\\mainprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{213B6FD5-47FE-A5F3-A71F-C3B48ECAF15A}|Integracio.csproj|solutionrelative:mainprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -10,19 +14,32 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 155,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XunitTest",
+              "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\XunitTest\\XunitTest.csproj",
+              "RelativeDocumentMoniker": "XunitTest\\XunitTest.csproj",
+              "ToolTip": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\XunitTest\\XunitTest.csproj",
+              "RelativeToolTip": "XunitTest\\XunitTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-18T10:44:26.239Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainProgram.cs",
               "DocumentMoniker": "C:\\Users\\isard\\Desktop\\Programaci\u00F3\\Real Ultimate Jesuscrist Unit test\\Ultimate Tare Unit test\\MainProgram.cs",
               "RelativeDocumentMoniker": "MainProgram.cs",
